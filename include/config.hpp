@@ -1,16 +1,4 @@
-//
-// Created by zackn on 7/20/2025.
-//
+#pragma once
 
-#ifndef CONFIG_HPP
-#define CONFIG_HPP
-
-
-
-class config {
-
-};
-
-
-
-#endif //CONFIG_HPP
+#define DEFAULT_CONFIG_FILE "config/default.cfg"
+#define MAX_LOG_LINE_LENGTH 1024

@@ -1,16 +1,14 @@
-//
-// Created by zackn on 7/20/2025.
-//
+#pragma once
+#include <vector>
+#include <string>
 
-#ifndef PROCESS_MONITOR_HPP
-#define PROCESS_MONITOR_HPP
-
-
-
-class process_monitor {
-
+struct ProcessInfo {
+    int pid;
+    std::string name;
 };
 
-
-
-#endif //PROCESS_MONITOR_HPP
+class ProcessMonitor {
+public:
+    // List all running processes
+    std::vector<ProcessInfo> listProcesses();
+};

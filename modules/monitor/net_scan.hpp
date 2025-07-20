@@ -1,16 +1,14 @@
-//
-// Created by zackn on 7/20/2025.
-//
+#pragma once
+#include <vector>
+#include <string>
 
-#ifndef NET_SCAN_HPP
-#define NET_SCAN_HPP
-
-
-
-class net_scan {
-
+struct HostInfo {
+    std::string ip;
+    std::string hostname;
 };
 
-
-
-#endif //NET_SCAN_HPP
+class NetScan {
+public:
+    // Scan the subnet for active hosts
+    std::vector<HostInfo> scanSubnet(const std::string& subnet);
+};
