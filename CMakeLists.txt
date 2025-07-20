@@ -42,4 +42,6 @@ add_executable(ToolLinux ${SOURCES}
         data/model.hpp
         data/settings.hpp
         config/config_manager.cpp
-        config/config_manager.hpp)
+        config/config_manager.hpp
+        core/system_info.cpp
+        core/system_info.hpp)
