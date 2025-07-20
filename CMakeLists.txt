@@ -45,3 +45,5 @@ add_executable(ToolLinux ${SOURCES}
         config/config_manager.hpp
         core/system_info.cpp
         core/system_info.hpp)
+
+add_subdirectory(tests)
