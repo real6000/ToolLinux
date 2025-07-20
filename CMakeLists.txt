@@ -40,4 +40,6 @@ add_executable(ToolLinux ${SOURCES}
         io/file_io.cpp
         io/file_io.hpp
         data/model.hpp
-        data/settings.hpp)
+        data/settings.hpp
+        config/config_manager.cpp
+        config/config_manager.hpp)
